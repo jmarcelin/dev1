@@ -1,0 +1,23 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="check.js"></script>
+        <title>Recherche</title>
+    </head>
+    <body>
+        <form id="cherche">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" value=""><br><br>
+
+            <label for="prenom">Prenom :</label>
+            <input type="text" id="prenom" name="prenom" value=""><br><br>
+
+            <input type="submit" value="Envoyer" onclick="check_input(event);">
+        </form>
+
+        <div id="resultat"></div>
+
+    </body>
+</html>

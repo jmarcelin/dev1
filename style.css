@@ -1,0 +1,71 @@
+/* Styles pour le formulaire */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles pour les étiquettes */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Styles pour les champs de saisie */
+input[type="text"]{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Style pour le bouton de soumission */
+input[type="submit"] {
+    background: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+input[type="submit"]:hover {
+    background: #0056b3;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+td {
+    padding: 8px;
+    border: 1px solid #ccc;
+    width: 50%;
+}
+
+td:first-child {
+    font-weight: bold;
+    background-color: #f0f0f0;
+}
+
+span{
+    color: red;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
